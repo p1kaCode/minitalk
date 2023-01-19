@@ -6,7 +6,7 @@
 /*   By: lmorel <lmorel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 18:05:09 by lmorel            #+#    #+#             */
-/*   Updated: 2023/01/19 18:38:28 by lmorel           ###   ########.fr       */
+/*   Updated: 2023/01/19 19:37:23 by lmorel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,9 +38,7 @@ int	main(int ac, char **av)
 		ft_putstr_fd("ERROR : Server don't need arguments to start.", 2);
 		return (ERROR);
 	}
-	ft_putstr_fd("PID : ", 1);
-	ft_putnbr_fd(getpid(), 1);
-	ft_putchar_fd('\n', 1);
+	ft_printf("PID : %d\n", getpid());
 	act.sa_handler = signal_handler;
 	while (1)
 	{

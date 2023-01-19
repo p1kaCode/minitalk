@@ -6,15 +6,11 @@
 /*   By: lmorel <lmorel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 18:08:12 by lmorel            #+#    #+#             */
-/*   Updated: 2023/01/19 18:39:45 by lmorel           ###   ########.fr       */
+/*   Updated: 2023/01/19 19:39:18 by lmorel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minitalk.h"
-
-// comparaison bit par bit, si le resultat est 1
-// alors on envoie un signal qui va mettre un 1 
-// sinon celui qui va mettre un zero
 
 int	send_char(int pid, char c)
 {
