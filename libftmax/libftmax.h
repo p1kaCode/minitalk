@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libftmax.h                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lmorel <lmorel@student.42.fr>              +#+  +:+       +#+        */
+/*   By: p1ka <p1ka@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 13:58:23 by lmorel            #+#    #+#             */
-/*   Updated: 2023/01/19 19:20:56 by lmorel           ###   ########.fr       */
+/*   Updated: 2023/01/31 07:05:28 by p1ka             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdarg.h>
+# include <stdint.h>
 # include <limits.h>
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 1
